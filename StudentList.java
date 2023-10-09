@@ -10,7 +10,7 @@ public class StudentList {
 			try {
 			BufferedReader s = new BufferedReader(
 					new InputStreamReader(
-							new FileInputStream("students.txt"))); 
+							new FileInputStream("students.txt"))); //my first code
 			String r = s.readLine();
 			String i[] = r.split(",");			
 			for(String j : i) { System.out.println(j); }
