@@ -10,10 +10,10 @@ public class StudentList {
 			try {
 			BufferedReader s = new BufferedReader(
 					new InputStreamReader(
-							new FileInputStream("students.txt"))); //my first code
+							new FileInputStream("students.txt"))); //my first codes
 			String r = s.readLine();
 			String i[] = r.split(",");			
-			for(String j : i) { System.out.println(j); }
+			for(String j : i) { System.out.println(j); }// my second comment
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");
 		}
